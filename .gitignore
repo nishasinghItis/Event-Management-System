@@ -9,9 +9,9 @@ yarn.lock
 .env.production
 .env.example
 *.md
-.BANNER.txt
-.setup.bat
-.setup.sh
+BANNER.txt
+setup.bat
+setup.sh
 
 # Build outputs
 dist/
