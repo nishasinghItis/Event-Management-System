@@ -24,6 +24,11 @@ const UserPortal = () => {
             <p className="text-gray-600">Track your orders</p>
           </Link>
           
+          <Link to="/user/guest-list" className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
+            <h3 className="text-xl font-bold text-blue-600 mb-2">Guest List</h3>
+            <p className="text-gray-600">Manage event guests</p>
+          </Link>
+          
           <Link to="/user/membership" className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
             <h3 className="text-xl font-bold text-blue-600 mb-2">Membership</h3>
             <p className="text-gray-600">Manage your membership</p>

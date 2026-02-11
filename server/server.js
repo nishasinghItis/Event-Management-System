@@ -9,6 +9,7 @@ import cartRoutes from './routes/cartRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 import membershipRoutes from './routes/membershipRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
+import guestRoutes from './routes/guestRoutes.js';
 
 dotenv.config();
 
@@ -30,6 +31,7 @@ app.use('/api/cart', cartRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/memberships', membershipRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/guests', guestRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'ProJEMS API Server' });

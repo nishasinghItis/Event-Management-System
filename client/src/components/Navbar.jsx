@@ -40,6 +40,7 @@ const Navbar = () => {
                   <Link to="/user/products" className="hover:underline">Products</Link>
                   <Link to="/user/cart" className="hover:underline">Cart</Link>
                   <Link to="/user/orders" className="hover:underline">Orders</Link>
+                  <Link to="/user/guest-list" className="hover:underline">Guest List</Link>
                   <Link to="/user/membership" className="hover:underline">Membership</Link>
                   <Link to="/user/reports" className="hover:underline">Reports</Link>
                   <Link to="/user/transactions" className="hover:underline">Transactions</Link>

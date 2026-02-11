@@ -62,4 +62,11 @@ export const adminAPI = {
   getAllTransactions: () => api.get('/admin/transactions')
 };
 
+export const guestAPI = {
+  getGuests: () => api.get('/guests'),
+  addGuest: (data) => api.post('/guests', data),
+  updateGuest: (id, data) => api.put(`/guests/${id}`, data),
+  deleteGuest: (id) => api.delete(`/guests/${id}`)
+};
+
 export default api;

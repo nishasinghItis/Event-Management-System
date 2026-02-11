@@ -36,6 +36,7 @@ import Checkout from './pages/Checkout';
 import Success from './pages/Success';
 import UserOrders from './pages/UserOrders';
 import Membership from './pages/Membership';
+import GuestList from './pages/GuestList';
 
 // Shared Pages
 import Reports from './pages/Reports';
@@ -81,6 +82,7 @@ function App() {
           <Route path="/user/checkout" element={<ProtectedRoute allowedRoles={['user']}><Checkout /></ProtectedRoute>} />
           <Route path="/user/success" element={<ProtectedRoute allowedRoles={['user']}><Success /></ProtectedRoute>} />
           <Route path="/user/orders" element={<ProtectedRoute allowedRoles={['user']}><UserOrders /></ProtectedRoute>} />
+          <Route path="/user/guest-list" element={<ProtectedRoute allowedRoles={['user']}><GuestList /></ProtectedRoute>} />
           <Route path="/user/membership" element={<ProtectedRoute allowedRoles={['user']}><Membership /></ProtectedRoute>} />
           <Route path="/user/reports" element={<ProtectedRoute allowedRoles={['user']}><Reports /></ProtectedRoute>} />
           <Route path="/user/transactions" element={<ProtectedRoute allowedRoles={['user']}><Transactions /></ProtectedRoute>} />
